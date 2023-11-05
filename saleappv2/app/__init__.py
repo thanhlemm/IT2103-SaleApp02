@@ -2,7 +2,7 @@ from flask import Flask
 from urllib.parse import quote
 from flask_sqlalchemy import SQLAlchemy
 
-#hi 2
+#hi 3
 app = Flask(__name__)
 
 app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://root:%s@localhost/flashsaledb?charset=utf8mb4" % quote('t-TThanhlemmilkk021203')
